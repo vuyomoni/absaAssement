@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Tests" >
+   <!-- <listeners>
+        <listener class-name="utils.SuiteListener"/>
+    </listeners>-->
+    <test name="Test Automation Cucumber">
+  				      
+                <classes>
+                    <class name="guiTests.ValidateUserTable"/>
+                </classes>
+
+    </test>
+</suite>

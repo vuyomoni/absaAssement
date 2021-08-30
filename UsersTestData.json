@@ -1,0 +1,22 @@
+[  
+   {"user": {  
+        "FirstName":"Fname1",
+        "LastName":"Lname1",
+        "UserName":"User1",
+        "Password":"Password1",
+        "Customer":"Company AAA",
+        "Role":"Admin",
+        "Email":"admin@mail.com",
+        "Cell":"082555"
+    }},
+   {"user": {  
+        "FirstName":"Fname2",
+        "LastName":"Lname2",
+        "UserName":"User2",
+        "Password":"Password2",
+        "Customer":"Company BBB",
+        "Role":"Customer",
+        "Email":"customer@mail.com",
+        "Cell":"083444"
+    }}
+]

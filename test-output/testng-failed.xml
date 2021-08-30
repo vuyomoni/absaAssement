@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cucumber Tests]">
+  <test thread-count="5" name="Test Automation Cucumber(failed)">
+    <classes>
+      <class name="guiTests.ValidateUserTable">
+        <methods>
+          <include name="ValidateUsersAdded"/>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- guiTests.ValidateUserTable -->
+    </classes>
+  </test> <!-- Test Automation Cucumber(failed) -->
+</suite> <!-- Failed suite [Cucumber Tests] -->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rest Api Tests" duration-ms="6119" started-at="2021-08-30T19:06:43 CAT" finished-at="2021-08-30T19:06:49 CAT">
+    <groups>
+    </groups>
+    <test name="Test Automation Api" duration-ms="6119" started-at="2021-08-30T19:06:43 CAT" finished-at="2021-08-30T19:06:49 CAT">
+      <class name="testsApi.FindDog">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testsApi.FindDog@6a84a97d]" name="beforeClass" is-config="true" duration-ms="34" started-at="2021-08-30T19:06:47 CAT" finished-at="2021-08-30T19:06:47 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="displayDogs()[pri:0, instance:testsApi.FindDog@6a84a97d]" name="displayDogs" duration-ms="1327" started-at="2021-08-30T19:06:47 CAT" finished-at="2021-08-30T19:06:48 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayDogs -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testsApi.FindDog@6a84a97d]" name="afterClass" is-config="true" duration-ms="30" started-at="2021-08-30T19:06:48 CAT" finished-at="2021-08-30T19:06:48 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testsApi.FindDog -->
+      <class name="testsApi.DogsDisplay">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testsApi.DogsDisplay@6c130c45]" name="beforeClass" is-config="true" duration-ms="20" started-at="2021-08-30T19:06:48 CAT" finished-at="2021-08-30T19:06:48 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="displayDogs()[pri:0, instance:testsApi.DogsDisplay@6c130c45]" name="displayDogs" duration-ms="675" started-at="2021-08-30T19:06:48 CAT" finished-at="2021-08-30T19:06:49 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayDogs -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testsApi.DogsDisplay@6c130c45]" name="afterClass" is-config="true" duration-ms="31" started-at="2021-08-30T19:06:49 CAT" finished-at="2021-08-30T19:06:49 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testsApi.DogsDisplay -->
+      <class name="testsApi.DisplayBreed">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testsApi.DisplayBreed@247d8ae]" name="beforeClass" is-config="true" duration-ms="214" started-at="2021-08-30T19:06:43 CAT" finished-at="2021-08-30T19:06:43 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="displayBreed()[pri:0, instance:testsApi.DisplayBreed@247d8ae]" name="displayBreed" duration-ms="2491" started-at="2021-08-30T19:06:43 CAT" finished-at="2021-08-30T19:06:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBreed -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testsApi.DisplayBreed@247d8ae]" name="afterClass" is-config="true" duration-ms="176" started-at="2021-08-30T19:06:45 CAT" finished-at="2021-08-30T19:06:46 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testsApi.DisplayBreed -->
+      <class name="testsApi.DogImageLink">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testsApi.DogImageLink@48974e45]" name="beforeClass" is-config="true" duration-ms="37" started-at="2021-08-30T19:06:46 CAT" finished-at="2021-08-30T19:06:46 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="displayBreed()[pri:0, instance:testsApi.DogImageLink@48974e45]" name="displayBreed" duration-ms="914" started-at="2021-08-30T19:06:46 CAT" finished-at="2021-08-30T19:06:47 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBreed -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testsApi.DogImageLink@48974e45]" name="afterClass" is-config="true" duration-ms="57" started-at="2021-08-30T19:06:47 CAT" finished-at="2021-08-30T19:06:47 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testsApi.DogImageLink -->
+    </test> <!-- Test Automation Api -->
+  </suite> <!-- Rest Api Tests -->
+</testng-results>
