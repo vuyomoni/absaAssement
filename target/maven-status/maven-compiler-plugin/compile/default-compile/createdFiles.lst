@@ -1,4 +1,9 @@
-utils\Utils.class
-helpers\PersonServiceHelper.class
+helpers\DogServiceHelper.class
+utils\BaseTest.class
+model\AddUserPage.class
 constants\EndPoint.class
-model\Person.class
+utils\ExtentFactory.class
+utils\BaseReport.class
+constants\Constants.class
+model\WebTablesPage.class
+utils\ConfigManager.class
