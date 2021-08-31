@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import utils.ConfigManager;
-
+import utils.Utils;
 import org.apache.http.HttpStatus;
 
 import io.restassured.RestAssured;
@@ -54,10 +54,7 @@ public class DogServiceHelper {
 		assertTrue(response.getStatusCode() == HttpStatus.SC_OK);
 		// System.out.println(response.asPrettyString());
 		String message = response.jsonPath().getString("message");
-		String pattern = "\\b" + breed + "\\b";
-		Pattern p = Pattern.compile(pattern);
-		Matcher m = p.matcher(message);
-		return m.find();
+		return Utils.FindValueInString(message, breed);
 	}
 
 }

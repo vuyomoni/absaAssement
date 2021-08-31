@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import utils.Utils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.openqa.selenium.By;
@@ -123,9 +123,9 @@ public class AddUserPage {
 				// System.out.print(col.getText() + "\t");
 				RowValues += " " + col.getText();
 			}
-			if (this.CheckValueinString(RowValues, FirstName) && this.CheckValueinString(RowValues, LastName)
-					&& this.CheckValueinString(RowValues, Username) && this.CheckValueinString(RowValues, email)
-					&& this.CheckValueinString(RowValues, Phone) && this.CheckValueinString(RowValues, role)) {
+			if (Utils.FindValueInString(RowValues, FirstName) && Utils.FindValueInString(RowValues, LastName)
+					&& Utils.FindValueInString(RowValues, Username) && Utils.FindValueInString(RowValues, email)
+					&& Utils.FindValueInString(RowValues, Phone) && Utils.FindValueInString(RowValues, role)) {
 				return true;
 			}
 			// System.out.println();
@@ -134,10 +134,5 @@ public class AddUserPage {
 
 	}
 
-	public Boolean CheckValueinString(String Test, String Value) {
-		String pattern = "\\b" + Value + "\\b";
-		Pattern p = Pattern.compile(pattern);
-		Matcher m = p.matcher(Test);
-		return m.find();
-	}
+	
 }
